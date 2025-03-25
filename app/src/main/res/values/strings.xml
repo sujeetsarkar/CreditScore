@@ -1,0 +1,55 @@
+<resources>
+    <string name="app_name">Credit Score</string>
+    <string name="next">NEXT</string>
+    <string name="skip">SKIP</string>
+    <string name="slide_1_title">Credit Score</string>
+    <string name="slide_1_desc">Free Credit Score and free credit analysis</string>
+
+    <string name="slide_2_title">Easy Access</string>
+    <string name="slide_2_desc">Access your credit score wherever you want and whenever uou want</string>
+
+    <string name="slide_3_title">Prediction</string>
+    <string name="slide_3_desc">Know your future credit score in advance</string>
+
+    <string name="slide_4_title">Remiinders</string>
+    <string name="slide_4_desc">Never miss a paymentd. Use this feature to get notified about your upcoming events</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="start">start</string>
+
+    <string name="howContent1">Banks, as part of their due diligence process, gauge creditworthiness of individuals based on credit scores.\n\n
+ The information listed on your credit report includes several variables that we uses to set your credit score.\n\n
+        Credit Score, therefore ,reflects the extent of the probability of a default. An individual`s credit history is to be submitted to us by banks, government departments,
+            financial institutions on a daily basis.
+</string>
+    <string name="howContent2">If you have a zero outstanding balance on you old credit card, there is no reason to unduly worry about it and close it.\n\n
+    If you have a credit card with a clear payment history, it will not only reflect your resposible credit behaviour but also keep your utilization rate low, which impacts\n\n
+    your score positively.</string>
+    <string name="howContent3">If you are in urgent need of moolah and applied for credit from several lenders, it will hace a negative impact on your score soce lenders\n\n
+    will be then be wary to issue a fresh loan while evaluating your creditworthiness.</string>
+    <string name="howContent4">Now that ypu know why the credit score is important, let us take a look into what you can do to improve your score. The need to improve the score
+    will arise only when your credit score is in trouble and you are planning to apply for a new loan or a credit card. If we are to assume that your credit score is not good then
+    these are the things that you can do to help it improve.\n\n
+    1. CHECK YOUR CREDIT REPORT: Checking your credit repports regularly is a good idea because it will tell you two things that are absolutely critical to your credit score.
+    The first will be the loan or credit card where the defualts or delayed paymnets exists that have brought down your score. The second thing it will tell you is the
+    information that is recorded in the credit report.\n\n
+    2.DON`T KEEP APPLYING FOR CREDIT IF REJECTED: If you have applied for a loan or a credit card and your application has been rejected, the information will be recorded in
+    your credit report. If you go and apply to another bank immediately then they will see your low credit score and the previous rejection and may reject your application.
+    The best thing to do in such case is to not apply again and wait for the score to improve.\n\n
+    3.GET A MIXED BAG OF CREDIT: When it comes to loans there are two types of loans, secured and unsecured. If you take too many unsecured loans,
+    banks tend to see it as a negative and might be inclined towars declining your loans. What you can do is to take both secured and unsecured loans like personal
+    loans and secured loans like car or home loans. P.S Credit card also counts as unsecured credit.</string>
+    <string name="howHead1">What is Credit Score?\n</string>
+    <string name="howHead2">Will opting for a credit card decrease my score?\n</string>
+    <string name="howHead3">What if you are `credit hungry`?</string>
+    <string name="howHead4">How to improve your credit score?</string>
+
+    <string-array name="ranges">
+        <item>Current</item>
+        <item>300-400</item>
+        <item>400-500</item>
+        <item>500-600</item>
+        <item>600-700</item>
+        <item>700-850</item>
+    </string-array>
+</resources>

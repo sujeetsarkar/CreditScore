@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_login"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/log_img"
+    tools:context="com.creditscore.sujeet.samplecreditscore.Login">
+    <ImageView
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:id="@+id/imageView1"
+        android:src="@drawable/icon"
+        android:layout_below="@+id/textView3"
+        android:layout_alignStart="@+id/username_login"
+        android:layout_above="@+id/username_login" />
+
+    <TextView
+        android:textStyle="bold"
+        android:textColor="@color/blue"
+        android:text="Username"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginLeft="40dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="145dp"
+        android:id="@+id/textView" />
+
+    <TextView
+        android:textStyle="bold"
+        android:textColor="@color/blue"
+        android:text="Password"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView"
+        android:layout_alignRight="@+id/textView"
+        android:layout_alignEnd="@+id/textView"
+        android:layout_marginTop="53dp"
+        android:id="@+id/textView2" />
+
+    <EditText
+        android:textStyle="bold"
+        android:textColor="#000"
+        android:layout_width="wrap_content"
+        android:textColorHint="#000"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:ems="10"
+        android:layout_alignBottom="@+id/textView2"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginRight="33dp"
+        android:layout_marginEnd="33dp"
+        android:layout_marginBottom="58dp"
+        android:id="@+id/username_login"
+        android:hint="Enter Name" />
+
+    <EditText
+        android:textStyle="bold"
+        android:textColor="#000"
+        android:textColorHint="#000"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPassword"
+        android:ems="10"
+        android:layout_alignTop="@+id/textView2"
+        android:layout_alignRight="@+id/username_login"
+        android:layout_alignEnd="@+id/username_login"
+        android:id="@+id/pass_login"
+        android:hint="Enter password" />
+
+    <TextView
+        android:textSize="25dp"
+        android:textStyle="bold"
+        android:textColor="@color/blue"
+        android:text="Sign In"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView3"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:background="@color/blue"
+        android:textColor="#fff"
+        android:text="LOG IN"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="97dp"
+        android:id="@+id/signin_login"
+        android:onClick="login"
+        android:layout_below="@+id/pass_login"
+        android:layout_toLeftOf="@+id/textView3"
+        android:layout_toStartOf="@+id/textView3" />
+
+    <Button
+        android:background="@color/blue"
+        android:textColor="#fff"
+        android:text="SIGN UP"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/signup_login"
+        android:onClick="sign_up"
+        android:layout_alignBaseline="@+id/signin_login"
+        android:layout_alignBottom="@+id/signin_login"
+        android:layout_toRightOf="@+id/textView3"
+        android:layout_toEndOf="@+id/textView3" />
+</RelativeLayout>
